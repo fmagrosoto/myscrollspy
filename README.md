@@ -17,6 +17,7 @@ Este repo cuenta con una versión en vivo alojado en [**Heroku**](https://heroku
 [Ver código en vivo](https://myscrollspy.herokuapp.com)
 
 ## COPYLEFT
-2019. Fernando Magrosoto. [MIT](LICENSE)
+
+©️2019. Fernando Magrosoto. [MIT](LICENSE)
 
 Happy Coding 🍺
