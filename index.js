@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const PORT = process.env.PORT || 5000;
 
 // Esto es un direccionamiento
 app.get('/', function (req, res) {
@@ -11,6 +12,4 @@ app.get('/', function (req, res) {
 // ¡Esta es la ley!
 app.use(express.static('public_html/'));
 
-app.listen(3505, function () {
-  console.log('!Corriendo MyScrollSpy en el puerto 3505!');
-});
+app.listen(PORT, () => console.log(`Listening on ${PORT}`));
