@@ -7,7 +7,7 @@
 * la programación de un efecto ScrollSpy
 * totalmente personalizado.
 * -----------------------------------------
-* @author: Fernando Magrosoto v. 🍺
+* @author: Fernando Magrosoto V. 🍺
 * @copyright: 2019 MIT
 */
 
@@ -16,7 +16,126 @@
 }
 
 body {
+  background: whitesmoke;
   font-family: 'Livvic', sans-serif;
   font-size: 18px;
+  margin: 0;
+  padding: 95px 0 0 0;
+}
+
+.contenedor {
+  height: inherit;
+  margin: auto;
+  padding: 0 1em;
+  width: 992px;
+}
+
+.bloque-flex {
+  align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+  height: inherit;
+  justify-content: space-between;
+}
+
+header {
+  background: linear-gradient(blue, darkblue);
+  box-shadow: 0 3px 8px rgba(0,0,0,.25);
+  height: 95px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+header .titulo-header {
+  align-content: center;
+  color: whitesmoke;
+  margin: 0;
+  padding: 0;
+  text-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+
+header .navegacion-flex {
+  align-content: center;
+}
+
+header .navegacion-flex ul {
+  display: flex;
+  list-style-type: none;
+  margin: -.5em;
+  padding: 0;
+}
+
+header .navegacion-flex ul li {
+  margin: .5em;
+}
+
+header .navegacion-flex ul li a {
+  background: rgba(250,250,250,.25);
+  border-radius: .5em;
+  color: white;
+  padding: .5em .75em;
+  text-decoration: none;
+  text-shadow: 0 2px 5px rgba(0,0,0,.5);
+  transition: all .35s ease;
+}
+
+header .navegacion-flex ul li a:hover, header .navegacion-flex ul li a.activo {
+  background: rgba(250,250,250,.65);
+}
+
+main {
+  margin: 3em 0;
+  width: 100vw;
+}
+
+main h2, main p {
+  margin: 0 0 1em 0;
+  padding: 0;
+}
+
+main p {
+  text-align: justify;
+}
+
+main .bloque-flex {
+  align-items: flex-start !important;
+  margin: -.75em;
+}
+
+main .bloque-flex > div {
+  margin: .75em;
+}
+
+footer {
+  border-top: 1px lightgray solid;
+  height: 200px;
+  width: 100vw;
+}
+
+footer .bloque-flex {
+  justify-content: center;
+}
+
+footer .bloque-flex .creditos {
+  align-content: center;
+}
+
+footer .bloque-flex .creditos h4,
+footer .bloque-flex .creditos p {
+  text-align: center;
+}
+
+footer .bloque-flex .creditos h4 {
+  font-size: 18px;
+  border-bottom: 1px lightgray solid;
+  margin: 0 0 .5em 0;
+  padding: 0 0 .5em 0;
+}
+
+footer .bloque-flex .creditos p {
+  font-size: 16px;
+  font-weight: 300;
   margin: 0;
 }
