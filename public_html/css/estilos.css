@@ -1,0 +1,22 @@
+/**
+* -----------------------------------------
+* ESTILOS PARA EL SCROLLSPY PERSONALIZADO
+* -----------------------------------------
+* Estos estilos no tienen importancia para
+* lo que se trata de lograr aquí, que es
+* la programación de un efecto ScrollSpy
+* totalmente personalizado.
+* -----------------------------------------
+* @author: Fernando Magrosoto v. 🍺
+* @copyright: 2019 MIT
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Livvic', sans-serif;
+  font-size: 18px;
+  margin: 0;
+}

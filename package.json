@@ -1,0 +1,27 @@
+{
+  "name": "myscrollspy",
+  "version": "0.0.0",
+  "description": "Desarrollo de un efecto scrollSpy personalizado.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmagrosoto/myscrollspy.git"
+  },
+  "keywords": [
+    "digitae",
+    "fmagrosoto"
+  ],
+  "author": "Fernando Magrosoto V.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fmagrosoto/myscrollspy/issues"
+  },
+  "homepage": "https://myscrollspy.herokuapp.com",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
