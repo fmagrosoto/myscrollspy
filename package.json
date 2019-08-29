@@ -21,6 +21,9 @@
     "url": "https://github.com/fmagrosoto/myscrollspy/issues"
   },
   "homepage": "https://myscrollspy.herokuapp.com",
+  "engines": {
+    "node": "9.x"
+  },
   "dependencies": {
     "express": "^4.17.1"
   }

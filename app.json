@@ -1,0 +1,12 @@
+{
+  "name": "My ScrollSpy",
+  "description": "Efecto ScrollSpy personalizado",
+  "repository": "https://github.com/fmagrosoto/myscrollspy",
+  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+  "keywords": [
+    "node",
+    "express",
+    "heroku"
+  ],
+  "image": "heroku/nodejs"
+}
