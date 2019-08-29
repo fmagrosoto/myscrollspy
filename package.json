@@ -1,6 +1,6 @@
 {
   "name": "myscrollspy",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Desarrollo de un efecto scrollSpy personalizado.",
   "main": "index.js",
   "scripts": {
